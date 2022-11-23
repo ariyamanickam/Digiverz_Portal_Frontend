@@ -1,0 +1,165 @@
+.modelbuilder__parent {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-image: url('../../../assests/gym.jpg');
+    background-size: 100% 100%;
+}
+
+.MB_form__cont {
+    width: 82%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    
+
+}
+
+.MB_form_cont__child {
+    height: 80vh;
+    width: 95%;
+    margin: 5%;
+    /* padding: 2rem 2rem 0 8rem; */
+    position: relative;
+    color: rgb(3, 3, 3);
+    background-color: white;
+    margin-top: 100px;
+
+
+}
+
+.MB_icon_images {
+    height: 20rem;
+    width: 20rem;
+    background-image: url("../../../assests/features/model_builder_icons.png");
+    background-repeat: no-repeat;
+    background-size: 23rem;
+    position: absolute;
+    top: 40%;
+    right: 12%;
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+
+}
+
+.country_inp {
+    width: 40%;
+    height: 3rem;
+
+
+}
+
+.MB__form_lable {
+    display: block;
+    margin: 1rem 0 1rem 0;
+    font-weight: 550;
+}
+
+.slider_exp {
+    width: 40%;
+}
+
+.MB_pred_btn {
+    margin-top: 8rem;
+
+
+}
+
+.MB_Journey {
+    color: #FF4500;
+    font-weight: 550;
+    font-size: 25px;
+
+}
+
+.input-text1 {
+    height: 3rem;
+    font-family: inherit;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: .3rem;
+    border-bottom: 1px black solid;
+    width: 40%;
+}
+
+.input-text1:focus {
+    outline-color: #FF4500;
+}
+
+
+input[type="text"] {
+    font-size: 1rem;
+    font-weight: 550;
+    color: black;
+    padding: 10px 15px;
+    margin: 5px 0;
+
+}
+
+::placeholder {
+    color: rgb(163, 158, 158);
+    line-height: 1.6;
+    text-align: initial;
+    margin-left: 30px;
+}
+
+.input-text1:not(:placeholder-shown)+.label,
+.input-text1:focus+.label {
+    top: -1.6rem;
+    transform: scale(.75);
+}
+
+.input-text1:focus+.label {
+    color: green;
+}
+
+.subtitleMB {
+    margin-left: 350px;
+}
+
+.divideMain {
+    position: relative;
+    margin-top: -455px;
+    margin-left: 350px;
+    width: 100%;
+}
+
+.item_head1 {
+    height: 32.5rem;
+    width: 42rem;
+    background: rgba(255, 255, 255, 0.15);
+    /* margin-left: 100px; */
+
+
+
+    /* display: flex; */
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    transition: .6s ease;
+    padding: 1%;
+
+}
+
+/* .item_head1:hover {
+    transform: scale(1.02);
+    color: white;
+    font-weight: 550;
+} */
+.logo_phone{
+    height: 450px;
+    width: 350px;
+    position: absolute;
+    margin-left: 850px;
+    margin-top: 250px;
+}
+.item_head2{
+    height: 36.5rem;
+    width: 68rem;
+    background: rgba(26, 22, 22, 0.19);
+    /* margin-left: 200px; */
+    margin-top: 120px;
+}
