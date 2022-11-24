@@ -13,41 +13,47 @@ export const Uploadcsv = () => {
       if (file.status === "done") {
         console.log(file, fileList);
         navigate("/dataQuality");
-      }else{
-        
+      } else {
+
       }
     },
-    
-    
+
+
   };
   return (
-    <div className="upload_csv_parent">
-      <Text
+    <div className="upload_csv_parent bg">
+      <div className="dataquality_head">
+        <Text
           h1
           size={60}
           className="home__main_cont_hed csv_uploadpage"
           css={{
-            textGradient: "45deg, $blue600 -20%, $black 80%",
+            color: "black"
           }}
+
           weight="bold"
         >
           Data Quality Reporter
         </Text>
-        <Text h3>Drag and Drop the CSV to perfome EDA</Text>
-      <div className="csv_upload_head">
+      </div>
+      <div className="data_quality_desc">
+          <Text h3>Drag and Drop the CSV to perfome EDA</Text>
+      </div>
       
-      <div className="ant_csv_cont">
-        
-        <Upload.Dragger {...props} progress={{
-          strokeWidth: 3,
-          strokeColor:{
-            "0%": "blue",
-            "100%":"black"
-          }
-        }}
-        listType="picture">
-          <Button icon={<UploadOutlined />}>Upload</Button>
-        </Upload.Dragger>
+      <div className="csv_upload_head">
+
+        <div className="ant_csv_cont">
+
+          <Upload.Dragger {...props} progress={{
+            strokeWidth: 3,
+            strokeColor: {
+              "0%": "blue",
+              "100%": "black"
+            }
+          }}
+            listType="picture">
+            <Button icon={<UploadOutlined />}>Upload</Button>
+          </Upload.Dragger>
         </div>
       </div>
     </div>

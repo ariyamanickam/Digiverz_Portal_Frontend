@@ -1,6 +1,6 @@
 import React, { useEffect, PureComponent } from "react";
 import { Sidenav } from "../../sidenav/Sidenav";
-// import Temperature from "../../FeaturesComponents/Modelbuilder/temperature"
+
 import { useState } from "react";
 import mbAnalytics from "../../../assests/squares.png";
 import mbAnalytics1 from "../../../assests/squares1.png";
@@ -71,7 +71,7 @@ export const Mbresul = () => {
                         <li>
                           <p className="result_dec-1_size">
                             {" "}
-                            <FontAwesomeIcon icon={faPageLines} />
+                            <FontAwesomeIcon icon={faClock} />
                             Age: {item.age}
                           </p>
                         </li>

@@ -386,6 +386,7 @@ export const Dataquality = () => {
               css={{
                 textGradient: "45deg, $blue600 -10%, $black 80%",
               }}
+             
               weight="bold"
             >
               Data Quality Reporter

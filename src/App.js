@@ -30,7 +30,7 @@ import { Dataquality } from "./Components/FeaturesComponents/Dataquality/Dataqua
 import { Dqhistory } from "./Components/FeaturesComponents/Dataquality/Dqhistory";
 import { UploadCsvAlgo } from "./layouts/UploadCsvAlgo/UploadCsvAlgo";
 import { AlgorithmAnalyzer } from "./Components/FeaturesComponents/AlgorithmAnalyzer/AlgorithmAnalyzer";
-import Temperature from "./Components/FeaturesComponents/Modelbuilder/temperature";
+
 
 
 
@@ -73,7 +73,7 @@ function App() {
             <Route path="/dqhistory" element={<Dqhistory/>} />
             <Route path="/AlgoAnalyzerCsvupload" element={<UploadCsvAlgo/>} />
             <Route path="/AlgorithmAnalyzer" element={<AlgorithmAnalyzer/>} />
-            <Route path="/temperature" element={<Temperature/>} />
+           
 
           </Routes>
         </div>
